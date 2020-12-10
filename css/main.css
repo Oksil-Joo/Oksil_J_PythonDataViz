@@ -1,0 +1,105 @@
+@charset "UTF-8"
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	background-color: #29abe2;
+}
+
+#mainContainer
+{
+	background-color: #fff;
+	margin: 0 auto;
+	width: 960px;
+	overflow: hidden;
+	padding: 0 auto;
+}
+
+#container
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.mainCon
+{
+	width: 960px;
+	font-size: 36px;
+	text-align: center;
+	background-color: #efefef;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#textCon
+{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+}
+
+
+
+#contentCon1
+{
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-left: auto;
+	align-content: flex-start;
+	flex-direction: column;
+}
+
+#contentCon2
+{
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-left: auto;
+	align-content: flex-start;
+		flex-direction: column;
+}
+
+#contentCon3
+{
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-left: auto;
+	align-content: flex-start;
+	flex-direction: column;s
+}
+
+.content_text
+{
+	font-family: arial bold, Helvetia, san-serif;
+	font-size: 24px;
+	width: 900px;
+	margin-bottom: 20px;
+	color: #29abe2;
+
+}
+
+p
+{
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
