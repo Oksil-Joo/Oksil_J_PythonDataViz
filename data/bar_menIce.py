@@ -14,7 +14,7 @@ plt.bar(ind + width, bronze, width, label='Bronze', color ='chocolate')
 
 plt.ylabel("Medals")
 plt.xlabel("Countries")
-plt.title("USA vs CAN Men's Ice Hockey Medal Count", fontweight = 'bold')
+plt.title("CAN vs USA Men's Ice Hockey Medal Count", fontweight = 'bold')
 
 plt.xticks(ind + width / 3, ('CAN', 'USA'))
 plt.legend(loc='best')

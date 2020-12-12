@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = ['USA', 'CAN', 'NOR', 'URS', 'GER']
-gold = [167, 315, 159, 250, 137]
-silver = [319, 203, 171, 97, 126]
-bronze = [167, 107, 127, 93, 97]
+x = ['AUT', 'CAN', 'FIN', 'GER', 'NOR', 'RUS', 'SUI', 'SWE', 'URS', 'USA']
+gold = [79, 315, 66, 137, 159, 94, 76, 127, 250, 167]
+silver = [98, 203, 147, 126, 171, 90, 77, 129, 97, 319]
+bronze = [103, 107, 221, 97, 127, 79, 132, 177, 93, 167]
 
 b_bronze = list(np.add(gold,silver))
 
