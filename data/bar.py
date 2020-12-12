@@ -14,6 +14,6 @@ plt.bar(x, bronze, 0.4, bottom = b_bronze, label = "Bronze", color="chocolate")
 
 plt.ylabel("Medals")
 plt.xlabel("Countries")
-plt.title("Gold, Silver, and Bronze Medal Count for The Top 5 Countries", fontweight= 'bold')
+plt.title("Gold, Silver, and Bronze Medal Count for The Top 10 Countries", fontweight= 'bold')
 plt.legend()
 plt.show()
